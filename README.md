@@ -1,4 +1,4 @@
-# hello, I'm intereted in Embedded System, Firmware Programming, BSP 
+# I'm intereted in Embedded System, Firmware Programming, BSP 
 
 # ps
 
