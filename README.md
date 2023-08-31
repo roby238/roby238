@@ -1,12 +1,10 @@
-# .
-
-be a better man
+# hello, I'm intereted in Embedded System, Firmware Programming, BSP 
 
 # ps
 
 [![Solved.ac프로필](http://mazassumnida.wtf/api/generate_badge?boj=roby238)](https://solved.ac/roby238)
 
-# i'm studying
+# i'm studying...
 
 <div><img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white"/> 
   <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/> 
