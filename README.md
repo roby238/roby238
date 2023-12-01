@@ -33,4 +33,4 @@
 
 # Contacts
 [![Naver Badge](https://img.shields.io/badge/NaverBlog-03C75A?style=flat-square&logo=Naver&logoColor=white&link=https://blog.naver.com/robby238/)](https://blog.naver.com/robby238/)
-[![Naver Badge](https://img.shields.io/badge/NaverMail-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:roby238.dev@naver.com)](mailto:roby238.dev@naver.com)
+[![Naver Badge](https://img.shields.io/badge/NaverMail-03C75A?style=flat-square&logo=Naver&logoColor=white&link=mailto:roby238_dev@naver.com)](mailto:roby238_dev@naver.com)
