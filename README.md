@@ -40,11 +40,15 @@ well-defined protocols, state machines, access control models, and persistent de
 Main Focus
 ├── Embedded Firmware
 ├── Storage Security
-├── Self-Encrypting Drive (SED)
-├── TCG Core + Opal SSC + SIIS
+  ├── Self-Encrypting Drive (SED)
+    ├── TCG Core
+    ├── TCG Opal SSC
+    ├── SIIS
+    ├── IEEE 1667
+    ├── Open Compute Project (OCP)
 ├── NVMe / Storage Protocols
-├── Access Control + Authentication
-└── Firmware State Management
+├── Cryptography
+└── Access Control and Authentication
 ```
 
 ---
@@ -123,7 +127,7 @@ and implementation discipline.
 
 ## Background
 
-- B.S. in Electronic Engineering (Chonnam National Univ)
+- B.S. in Electronic Engineering (Chonnam Nat'L Univ)
 - Completed Intel SW training program
 - Experience in SED / TCG Opal firmware development
 - Interested in embedded systems and algorithmic problem solving
