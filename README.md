@@ -40,12 +40,12 @@ well-defined protocols, state machines, access control models, and persistent de
 Main Focus
 ├── Embedded Firmware
 ├── Storage Security
-  ├── Self-Encrypting Drive (SED)
-    ├── TCG Core
-    ├── TCG Opal SSC
-    ├── SIIS
-    ├── IEEE 1667
-    ├── Open Compute Project (OCP)
+    └── Self-Encrypting Drive (SED)
+        ├── TCG Core
+        ├── TCG Opal SSC
+        ├── SIIS
+        ├── IEEE 1667
+        └── Open Compute Project (OCP)
 ├── NVMe / Storage Protocols
 ├── Cryptography
 └── Access Control and Authentication
