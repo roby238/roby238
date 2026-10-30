@@ -10,12 +10,13 @@ I enjoy digging into technical specifications and translating strict requirement
 ### 🧭 Focus Area & Architecture
 
 ```text
-Embedded Firmware Architecture
+Architecture
 │
 ├── 🔒 Storage Security & Protocols
 │   ├── Self-Encrypting Drive (SED)
-│   │   ├── TCG Core Specification
+│   │   ├── TCG Core Specification (Shadow MBR, Revert, etc.)
 │   │   ├── TCG Opal SSC (Security Subsystem Class)
+│   │   ├── Feature Sets (SUM, CNL, etc.)
 │   │   ├── SIIS (Storage Interface Interactions Specification)
 │   │   ├── IEEE 1667 (Standard for Authentication in Host Attachments)
 │   │   └── OCP (Open Compute Project) Storage Security Spec
@@ -24,15 +25,21 @@ Embedded Firmware Architecture
 │       ├── NVMe Security Send / Receive
 │       └── Protocol Encapsulation & Packet Parsing
 │
-├── 🔐 Cryptography & Access Control
+├── 🔑 Access Control & Authentication (TCG)
 │   ├── Authority, Role & Session Management (Admin SP / Locking SP)
 │   ├── Locking Range State Transitions & Access Control Lists (ACL)
-│   └── Secure Device Lifecycle & Crypto-Erase Logic
+│   └── Device Lifecycle States (Manufactured-Inactive, Manufactured, etc.)
 │
-└── 🛠️ Firmware Reliability
-    ├── Hardware-Oriented State Machine Design
-    ├── Error Handling & Power-Loss State Consistency
-    └── Low-Level Protocol & Register Debugging
+├── 🔐 Cryptography & Key Management
+│   ├── Key Hierarchy & Key Architecture Design
+│   │   ├── Media Encryption Key (MEK / DEK) Lifecycle
+│   │   └── Intermediate Keys & Key Derivation (PBKDF)
+│   ├── Cryptographic Erase (Key Change)
+│   └── Hardware Crypto Engine / AES-XTS
+│
+└── 🛠️ Reliability
+    ├── Finite State Machine Design
+    └── Error Handling
 ```
 
 ---
@@ -60,7 +67,8 @@ My day-to-day work centers around designing and implementing firmware features f
 - **SED / TCG Opal Firmware Development** `2024.04 – Present`
   - Focus on TCG Opal SSC, NVMe security protocols, and state management
 - **Intel SW Training Program (2nd)** `2023.07 – 2024.02`
-  - Systems programming & software optimization
+  - Embedded & FW & Edge AI
+  - Team project lead & collaboration
 - **Software Engineer Intern** `2022.11 – 2023.05`
   - Android & BE service development
 - **Republic of Korea Army (ROKA)** `2020.03 – 2022.06`
