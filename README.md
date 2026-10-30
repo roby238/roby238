@@ -2,13 +2,13 @@
 
 # Hi, I'm Robby
 
-### Embedded Firmware Developer  
+### Security Firmware Engineer  
 ### Storage Security · TCG Opal SSC · SED · NVMe
 
-I am interested in low-level software, embedded systems, firmware architecture,  
+Low-level software, embedded systems, firmware architecture,  
 and storage security technologies.
 
-Currently, I am working on **SED firmware development based on TCG Opal SSC**,  
+I am working on **SED FW Development based on TCG Opal SSC**,  
 with a focus on secure storage behavior, protocol-level implementation,  
 and firmware-side state management.
 
@@ -73,7 +73,7 @@ especially when small behavioral differences can affect interoperability, securi
 
 ---
 
-## Technical Interests
+## Interests
 
 ### Embedded & Firmware
 
@@ -127,9 +127,9 @@ and implementation discipline.
 
 ## Background
 
-- B.S. in Electronic Engineering (Chonnam Nat'L Univ)
-- Completed Intel SW training program
-- Experience in SED / TCG Opal firmware development
+- B.S. Electronic Engineering, Chonnam Nat'L Univ
+- Completed Intel SW Training Program
+- Experience in SED / TCG Opal FW Development
 - Interested in embedded systems and algorithmic problem solving
 
 ---
