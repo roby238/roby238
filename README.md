@@ -12,33 +12,26 @@ I enjoy digging into technical specifications and translating strict requirement
 ```text
 Architecture
 │
-├── 🔒 Storage Security & Protocols
-│   ├── Self-Encrypting Drive (SED)
-│   │   ├── TCG Core Specification (Shadow MBR, Revert, etc.)
-│   │   ├── TCG Opal SSC (Security Subsystem Class)
-│   │   ├── Feature Sets (SUM, CNL, etc.)
-│   │   ├── SIIS (Storage Interface Interactions Specification)
-│   │   ├── IEEE 1667 (Standard for Authentication in Host Attachments)
-│   │   └── OCP (Open Compute Project) Storage Security Spec
-│   │
-│   └── Transport Protocols & Commands
-│       ├── NVMe Security Send / Receive
-│       └── Protocol Encapsulation & Packet Parsing
+├── 📜 Standards & Protocols
+│   ├── Storage Security Specs: TCG Core, Opal SSC, IEEE 1667, OCP
+│   ├── Opal Feature Sets: SUM, CNL, Block SID
+│   └── Interface & Transport: NVMe (Security Send/Receive), SIIS
 │
-├── 🔑 Access Control & Authentication (TCG)
-│   ├── Authority, Role & Session Management (Admin SP / Locking SP)
-│   ├── Locking Range State Transitions & Access Control Lists (ACL)
-│   └── Device Lifecycle States (Manufactured-Inactive, Manufactured, etc.)
+├── 🔑 Features
+│   ├── Protocol: ComPacket/Packet/DataSubpacket Processing
+│   ├── Session Manager: Session Lifecycle & ComID Management, Transaction
+│   ├── Authority & Access Control: Admin SP / Locking SP, Roles & ACLs
+│   ├── Locking Mechanism: Locking Ranges (L0–Ln), Read/Write Locking States, CNL
+│   ├── Pre-Boot & Recovery: Shadow MBR (PBA), PSID Revert
+│   └── Lifecycle States: Manufactured-Inactive, Manufactured
 │
-├── 🔐 Cryptography & Key Management
-│   ├── Key Hierarchy & Key Architecture Design
-│   │   ├── Media Encryption Key (MEK / DEK) Lifecycle
-│   │   └── Intermediate Keys & Key Derivation (PBKDF)
-│   ├── Cryptographic Erase (Key Change)
-│   └── Hardware Crypto Engine / AES-XTS
+├── 🔐 Cryptography & Key Hierarchy
+│   ├── Key Architecture: Key Hierarchy
+│   ├── Key Lifecycle: Media Encryption Key (MEK/DEK), Intermediate Keys, KDF
+│   └── Crypto Erase: Cryptographic Erase (Key Invalidation & Re-keying)
 │
 └── 🛠️ Reliability
-    ├── Finite State Machine Design
+    ├── Deterministic FSM Design
     └── Error Handling
 ```
 
