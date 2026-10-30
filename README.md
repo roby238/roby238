@@ -1,152 +1,74 @@
-<div align="center">
+# Robby
 
-# Hi, I'm Robby
+I build low-level software that operates close to the hardware.  
+Currently working on **Self-Encrypting Drive (SED) firmware based on TCG Opal SSC**, focusing on secure storage behavior, protocol-level implementation, and firmware-side state management.
 
-### Security Firmware Engineer  
-### Storage Security · TCG Opal SSC · SED · NVMe
-
-Low-level software, embedded systems, firmware architecture,  
-and storage security technologies.
-
-I am working on **SED FW Development based on TCG Opal SSC**,  
-with a focus on secure storage behavior, protocol-level implementation,  
-and firmware-side state management.
-
-<br/>
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-333333?style=for-the-badge&logo=linux&logoColor=white)
-![NVMe](https://img.shields.io/badge/NVMe-Storage%20Protocol-5E81AC?style=for-the-badge)
-![TCG Opal](https://img.shields.io/badge/TCG%20Opal-Storage%20Security-81A1C1?style=for-the-badge)
-
-</div>
+I enjoy digging into technical specifications and translating strict requirements into deterministic firmware logic. For me, the fun is in the details—where even a tiny behavioral difference can impact interoperability, security, or compliance.
 
 ---
 
-## About Me
-
-I majored in **Electronic Engineering** and have a strong interest in systems that operate close to hardware.
-
-My current work is centered around **Self-Encrypting Drive firmware** and **TCG Opal SSC**.  
-I enjoy analyzing technical specifications, translating requirements into firmware behavior,  
-and implementing reliable logic for security-critical storage systems.
-
-I am particularly interested in how low-level software controls hardware behavior through  
-well-defined protocols, state machines, access control models, and persistent device configuration.
+### 🧭 Focus Area & Architecture
 
 ```text
-Main Focus
-├── Embedded Firmware
-├── Storage Security
-    └── Self-Encrypting Drive (SED)
-        ├── TCG Core
-        ├── TCG Opal SSC
-        ├── SIIS
-        ├── IEEE 1667
-        └── Open Compute Project (OCP)
-├── NVMe / Storage Protocols
-├── Cryptography
-└── Access Control and Authentication
+Embedded Firmware Architecture
+│
+├── 🔒 Storage Security & Protocols
+│   ├── Self-Encrypting Drive (SED)
+│   │   ├── TCG Core Specification
+│   │   ├── TCG Opal SSC (Security Subsystem Class)
+│   │   ├── SIIS (Storage Interface Interactions Specification)
+│   │   ├── IEEE 1667 (Standard for Authentication in Host Attachments)
+│   │   └── OCP (Open Compute Project) Storage Security Spec
+│   │
+│   └── Transport Protocols & Commands
+│       ├── NVMe Security Send / Receive
+│       └── Protocol Encapsulation & Packet Parsing
+│
+├── 🔐 Cryptography & Access Control
+│   ├── Authority, Role & Session Management (Admin SP / Locking SP)
+│   ├── Locking Range State Transitions & Access Control Lists (ACL)
+│   └── Secure Device Lifecycle & Crypto-Erase Logic
+│
+└── 🛠️ Firmware Reliability
+    ├── Hardware-Oriented State Machine Design
+    ├── Error Handling & Power-Loss State Consistency
+    └── Low-Level Protocol & Register Debugging
 ```
 
 ---
 
-## Current Work
+### 🔧 What I'm Working On
+My day-to-day work centers around designing and implementing firmware features for TCG Opal-based SED systems:
 
-I am currently working on firmware features related to **TCG Opal-based SED systems**.
-
-My work involves understanding and implementing behavior around:
-
-- TCG Opal SSC command and method processing
-- Session handling and protocol-level communication
-- Admin SP / Locking SP behavior
-- Table and method structures
-- Access control and authority model
-- Locking range configuration and state transitions
-- NVMe / SIIS interaction with security protocol commands
-- Error handling and firmware state consistency
-
-I like working on problems where the implementation must match the specification precisely,  
-especially when small behavioral differences can affect interoperability, security, or compliance.
+- **TCG Opal Protocol Engine**: Processing Opal SSC commands and methods, managing session lifecycles, and parsing payload structures.
+- **SP Architecture**: Managing behavior, tables, and method execution across **Admin SP** and **Locking SP**.
+- **Access Control & Locking**: Implementing authorities, access control models, and dynamic **Locking Range** configurations and state transitions.
+- **Protocol Interoperability**: Handling **NVMe** security protocol commands (Security Send / Receive) and **SIIS** interactions.
+- **Robustness**: Ensuring strict firmware state consistency, robust error recovery, and clean state machine flow.
 
 ---
 
-## Interests
-
-### Embedded & Firmware
-
-- Embedded system architecture
-- Firmware design and implementation
-- Hardware-oriented software
-- Low-level debugging
-- State machine design
-- Robust error handling
-
-### Storage Security
-
-- Self-Encrypting Drives
-- TCG Croe + Opal SSC + SIIS(Storage Interface Interactions)
-- NVMe security protocol behavior
-- Authentication and access control
-- Locking / unlocking behavior
-- Secure device lifecycle management
-
-### Problem Solving
-
-I also enjoy solving algorithmic problems.  
-Algorithm practice helps me improve structured thinking, edge-case analysis,  
-and implementation discipline.
+### 🛠 Domains & Tech Stack
+- **Storage Security**: TCG Core & Opal SSC, SED, SIIS, IEEE 1667, OCP
+- **Firmware & Systems**: Embedded Architecture, State Machine Design, Low-level Debugging, Access Control
+- **Languages**: C, C++, Python
+- **Problem Solving**: I regularly practice algorithmic problem solving to stay sharp with edge-case analysis and implementation discipline.
 
 ---
 
-## Tech Stack
-
-### Languages
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-### System / Firmware
-
-![Embedded](https://img.shields.io/badge/Embedded-System-2E3440?style=flat-square)
-![Firmware](https://img.shields.io/badge/Firmware-Development-4C566A?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white)
-![Debugging](https://img.shields.io/badge/Debugging-Low%20Level-434C5E?style=flat-square)
-
-### Storage / Security
-
-![TCG Opal](https://img.shields.io/badge/TCG%20Opal-SSC-5E81AC?style=flat-square)
-![SED](https://img.shields.io/badge/SED-Self%20Encrypting%20Drive-81A1C1?style=flat-square)
-![NVMe](https://img.shields.io/badge/NVMe-Protocol-88C0D0?style=flat-square)
-![Storage Security](https://img.shields.io/badge/Storage-Security-8FBCBB?style=flat-square)
+### 🎓 Background & Experience
+- **SED / TCG Opal Firmware Development** `2024.04 – Present`
+  - Focus on TCG Opal SSC, NVMe security protocols, and state management
+- **Intel SW Training Program (2nd)** `2023.07 – 2024.02`
+  - Systems programming & software optimization
+- **Software Engineer Intern** `2022.11 – 2023.05`
+  - Android & BE service development
+- **Republic of Korea Army (ROKA)** `2020.03 – 2022.06`
+  - 1st Lieutenant, Signal Corps (35th Infantry Div.)
+- **Chonnam National University** `2016.03 – 2020.02`
+  - B.S. in Electronic Engineering
 
 ---
 
-## Background
-
-- B.S. Electronic Engineering, Chonnam Nat'L Univ
-- Completed Intel SW Training Program
-- Experience in SED / TCG Opal FW Development
-- Interested in embedded systems and algorithmic problem solving
-
----
-
-## Contact
-
-<div align="center">
-
-<a href="https://blog.naver.com/robby238/">
-  <img src="https://img.shields.io/badge/NaverBlog-03C75A?style=flat-square&logo=Naver&logoColor=white" alt="Naver Blog"/>
-</a>
-<a href="https://github.com/roby238">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
-<br/><br/>
-
-📧 roby238_dev@naver.com
-
-</div>
+### 📫 Contact
+- Email: [roby238_dev@naver.com](mailto:roby238_dev@naver.com)
